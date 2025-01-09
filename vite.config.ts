@@ -4,6 +4,5 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base:
-    process.env.NODE_ENV === "development" ? "/lottery_react" : "lottery_react",
+  base: "/lottery_react/",
 });

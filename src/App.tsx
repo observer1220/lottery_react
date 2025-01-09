@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <ConnectWallet />
-      <BrowserRouter>
+      <BrowserRouter basename="/lottery_react">
         <Routes>
           <Route path="/" element={<PrizePoolPage />} />
           <Route path="/buy" element={<BuyTicketsPage />} />
